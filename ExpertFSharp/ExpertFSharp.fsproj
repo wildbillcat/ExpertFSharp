@@ -59,6 +59,7 @@
     <None Include="App.config" />
     <None Include="Chapter2.fsx" />
     <Content Include="packages.config" />
+    <None Include="Linear.fsx" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FSharp.Core">
@@ -67,6 +68,14 @@
     </Reference>
     <Reference Include="FSharp.Data">
       <HintPath>..\packages\FSharp.Data.2.2.5\lib\net40\FSharp.Data.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MathNet.Numerics">
+      <HintPath>..\packages\MathNet.Numerics.3.10.0\lib\net40\MathNet.Numerics.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MathNet.Numerics.FSharp">
+      <HintPath>..\packages\MathNet.Numerics.FSharp.3.10.0\lib\net40\MathNet.Numerics.FSharp.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="mscorlib" />
